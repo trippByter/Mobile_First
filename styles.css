@@ -1,0 +1,39 @@
+/*Quitamos margin y padding por defecto del nav.*/
+/*
+Por  C O N V E N C I Ó N
+Colocar estilos de acuerdo a:
+1. Posicionamiento (padding-margin)
+Una vez posicionado:
+2. Dimensiones - Modelo de caja (Box Model)
+3. Tiporgafía (Fuentes. Tipos y tamaños)
+4. Efectos Visuales (shadow-box, border-radius)
+5. Otros (Nuevas reglas en css)
+*/
+
+
+:root{
+    /*Declaramos variables de colores*/
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D5;
+    --secondary-blue: #1A9AF7;
+    --soft-blue: #E7F5FF;
+    --warm-black: #201E1C;
+    --black: #282623;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+}
+
+/*Model Box*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    /*Para usar 'rem', dejar el font-size en 62.5%*/
+    font-size: 62.5%;
+    /*Para font family copiamos el texto del google fonts*/
+    font-family: 'DM Sans', sans-serif;
+}
