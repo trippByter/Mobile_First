@@ -30,10 +30,36 @@ Una vez posicionado:
     margin: 0;
     padding: 0;
 }
-
 html{
     /*Para usar 'rem', dejar el font-size en 62.5%*/
     font-size: 62.5%;
     /*Para font family copiamos el texto del google fonts*/
     font-family: 'DM Sans', sans-serif;
+}
+/*Toda la etiqueta 'header' */
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;   
+    height: 334px;
+    text-align: center;
+}
+/*La imagen del header 'Batatabit' */
+header img{
+    width: 150px;
+    height:24px;
+    margin-top: 60px;
+    align-self: center;
+}
+.header--title-container{
+    width: 90%;
+    min-width: 178px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
 }
