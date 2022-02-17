@@ -46,6 +46,7 @@ header {
     min-width: 320px;   
     height: 334px;
     text-align: center;
+    background: linear-gradient(207.8deg, #201E1c, #F7931A 100%);
 }
 /*La imagen del header 'Batatabit' */
 header img{
@@ -62,4 +63,20 @@ header img{
     margin-top: 40px;
     text-align: center;
     align-self: center;
+}
+
+/*Ocupar el máximo de especificidad*/
+.header--title-container h1{
+    font-size: 2.4rem; /* 24px = 2.4rem */
+    font-weight: bold;
+    line-height: 2.9rem;
+    color: var(--just-white);
+}
+
+.header--title-container p{
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--soft-orange)
 }
