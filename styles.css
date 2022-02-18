@@ -109,3 +109,22 @@ header img{
     margin-left: 5px;
     background-image: url('./assets/icons/arrow_down.svg');
 }
+/*Toda la etiqueta 'main' del body */
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+.main-exchange-container{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.main.main-exchange-container--title{
+    width: 90%;
+    height: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
