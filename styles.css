@@ -156,7 +156,7 @@ main{
 }
 .main-tables-slider{
     display: flex;
-    height: 366px;
+    height: 386px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
@@ -166,7 +166,7 @@ main{
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0px 30px 0 40px;
+    margin: 0px 44px 0 44px;
     font-family: "Inter", sans-serif;
 }
 .main-currency-table .currency-table--title{
@@ -270,7 +270,7 @@ main{
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0px 40px 0 40px;
+    margin: 0px 44px 0 44px;
     font-family: "Inter", sans-serif;
 }
 .main-comission-table .comission-table--title{
@@ -494,7 +494,7 @@ main{
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px 30px 0;
+    margin: 50px 10px 0;
     padding: 0 15px; 
     background-color: var(--just-white);
     border-radius: 15px;

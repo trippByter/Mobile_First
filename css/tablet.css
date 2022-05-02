@@ -1,0 +1,24 @@
+/*M E D I A   Q U E R Y S   P A R A   T A B L E T S*/
+
+
+/*Sección: TASAS DE CAMBIO*/
+.main-tables-slider {
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+}
+
+
+/*Sección: CREAMOS UN PRODUCTO SIN COMPARACIÓN*/
+.product-cards--container {
+    display:flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+
+
+/*Acomodamos seccion de los planes */
+.plans-container--slider {
+    justify-content: center;
+}
